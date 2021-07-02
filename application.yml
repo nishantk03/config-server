@@ -1,0 +1,8 @@
+eureka:
+  client:
+    register-with-eureka: true #To connect with service registry
+    fetch-registry: true       #To connect with service registry
+    service-url:               #Service registry location
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost        #Host name of server
